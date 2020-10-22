@@ -2,7 +2,7 @@
 int Server::receive(ByteVec msg){
 	/*Add IP Str and portNUm here*/
 	std::string IPStr_ = "192.168.43.52";
-	u_short portNum_ = 9999;
+	u_short portNum_ = 6666;
 	UDPReceiver  er;
 	/*allocation for dst_ here*/
 	if(tempDataServer != NULL){

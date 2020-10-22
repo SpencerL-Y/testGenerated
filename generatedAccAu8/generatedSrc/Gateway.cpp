@@ -62,7 +62,7 @@ int Gateway::sendToHost(ByteVec msg){
 }
 int Gateway::recvFromServer(ByteVec msg){
 	/*Add IP Str and portNUm here*/
-	std::string IPStr_ = "192.168.43.157";
+	std::string IPStr_ = "192.168.43.52";
 	u_short portNum_ = 8888;
 	UDPReceiver  er;
 	/*allocation for dst_ here*/
@@ -79,7 +79,7 @@ int Gateway::recvFromServer(ByteVec msg){
 int Gateway::sendToServer(ByteVec msg){
 	std::cout << "send to server" << std::endl;
 	/*Add Ip Str and portNum here*/
-	std::string IPStr_ = "192.168.43.157";
+	std::string IPStr_ = "192.168.43.52";
 	u_short portNum_ = 6666;
 	UDPSender snd;
 	/*Add length and data content to send here*/
