@@ -1,7 +1,7 @@
 #include "../generatedHeader/Server.h"
 int Server::receive(ByteVec msg){
 	/*Add IP Str and portNUm here*/
-	std::string IPStr_ = "192.168.43.157";
+	std::string IPStr_ = "192.168.43.52";
 	u_short portNum_ = 6666;
 	UDPReceiver  er;
 	/*allocation for dst_ here*/
@@ -17,7 +17,7 @@ int Server::receive(ByteVec msg){
 }
 int Server::send(ByteVec msg){
 	/*Add Ip Str and portNum here*/
-	std::string IPStr_ = "192.168.43.157";
+	std::string IPStr_ = "192.168.43.52";
 	u_short portNum_ = 8888;
 	UDPSender snd;
 	/*Add length and data content to send here*/
